@@ -1,38 +1,332 @@
-.App {
-  text-align: center;
+
+*{
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+}
+.m50{
+    margin-bottom: 30rem;
+    padding: 5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn{
+    border: 1px solid rgba(255, 255, 255,0.1);
+}
+.btn:hover{
+    background: rgb(27, 79, 63);
+    font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.googlemaps{
+    border-radius: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mymodel{
+    width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.modal-content{
+    width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.black{
+    color: #000;
+}
+.white{
+    color: white;
+}
+
+body{
+    background: rgba(78, 173, 87, 1) !important;
+    background: rgb(72, 146, 79) !important;
+    color: white;
+
+}
+.t1{
+    font-size: 48px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+}
+.t12{
+    font-size: 36px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+}
+.t2{
+    font-size: 24px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+
+}
+.t3{
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+
+}
+.t4{
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+
+}
+.t5{
+    font-size: 12px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+
+}
+.bold{
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.donate{
+    color: white !important ;
+}
+
+img{
+    width: 100%;
+}
+
+.btn{
+    background:rgba(21, 118, 89, 1);
+}
+
+/* navbar */
+
+.navbarflex{
+    display: flex;
+    justify-content: flex-end;
+    padding:0.5rem 2rem;
+}
+
+
+
+.backgroundpic{
+    min-height: 400px;
+    max-height: 560px;
+    overflow: hidden;
+}
+
+.mainandbtn{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: -20% 0 0 3rem;
+    align-items: center;
+
+    
+}
+
+.mainpart{
+    color: rgb(255, 255, 255);
+    min-width: 50%;
+    max-width: 400px;
+    margin: 2rem;
+  
+}
+
+.mainbtn{
+width: 208px;
+height: 43px;
+background: #2DAA84;
+background: #69DD67;
+font-weight: bold;
+margin: 3rem;
+align-items: center;
+}
+
+
+/* sec main */
+.secondarymain{
+    margin-top: 10rem;
+}
+
+
+
+/* services */
+
+.cardboxes{
+    display: flex;
+}
+
+.cardbox{
+    max-width: 301px;
+    height: 343px;
+    left: 122px;
+    top: 1482px;
+    margin: 1rem;
+    background: rgba(21, 118, 89, 1);
+    border-radius: 14px;
+
+
+}
+
+.cardbox .cardimg{
+    overflow: hidden;
+    border-radius: 14px 14px 0 0;
+
+    
+
+}
+.cardbox img{
+    height: 200px;
+    transform: scale(1.1);
+    width: auto;
+}
+
+.cardinfo{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.cardinfo .btn{
+    padding: 0.7rem 1rem;
+    margin-top: 2rem;
+    background: #69DD67;
+}
+
+.eventcardrow>*{
+    padding: 0;
+}
+
+.gallarybox{
+    box-shadow: 0px 1px 1px rgb(17, 141, 11);
+    margin: 1rem;
+    
+}
+
+
+
+/* social */
+.socicon{
+    background: rgb(191, 186, 186);
+    padding: 0.7rem 1rem;
+    border-radius: 1rem;
+}
+.socialicons{
+    display: flex;
+    max-width: 70%;
+}
+.socialicons a{
+    display: flex;
+    margin: auto;
+}
+
+.changelifebtn{
+    background: #69DD67;
+    margin: 1rem 0  0 6rem;
+    padding:1rem 5rem ;
+}
+
+/* footer */
+
+.footer{
+    background: #3B724A;
+}
+.terms a{
+    color: white;
+}
+.copyright{
+    color: rgb(211, 202, 202);
+}
+
+.facebook{
+    background: rgb(31, 109, 211);
+    color: rgb(250, 250, 250);
+}
+.youtube{
+    background: red;
+    color: rgb(255, 255, 255);
+}
+
+.twitter{
+    background: rgb(92, 182, 218);
+    color: rgb(255, 255, 255);
+
+}
+.instagram{
+    background: rgb(255, 255, 255);
+    color: rgb(223, 46, 46);
+}
+.google{
+    color: rgb(255, 255, 255);
+    background: rgb(106, 237, 106);
+}
+
+
+
+
+/* for modal */
+.modal-open{
+    padding-right: 0 !important;
+}
+
+/* donate */
+.donatepart{
+    margin-bottom: 30vh;
+}
+
+@media only screen and (max-width:1030px) {
+    .mainandbtn{
+        margin: 0;
+        margin-top: 0;
+        
+    }
+    .mainbtn{
+        margin: 3rem;
+        margin-top: 0 !important;
+    }
+    
+    .mainpart{
+        color: rgb(255, 255, 255);
+        min-width: 50%;
+        max-width:100%;
+        margin: 2rem;
+    }
+
+    .mainbtn{
+    width: 208px;
+    height: 43px;
+    margin-top: 70%;
+    background: #2DAA84;
+    background: #69DD67;
+    font-weight: bold;
+
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .mainandbtn{
+        margin: 0;
+        margin-top: -12%;
+        margin-bottom: -15%;
+        
+    }
+    .mainbtn{
+        margin: 3rem;
+        margin-top: 0 !important;
+    }
+    
+    .mainpart{
+        color: rgb(255, 255, 255);
+        min-width: 50%;
+        max-width:100%;
+        margin: 2rem;
+    }
+
+    .mainbtn{
+    width: 208px;
+    height: 43px;
+    margin-top: 70%;
+    background: #2DAA84;
+    background: #69DD67;
+    font-weight: bold;
+
+    }
+    .seeandadd{
+    }
 }
